@@ -21,6 +21,9 @@ app.use(express.urlencoded({ extended: true }));
 //         secret: 'Un secret pour signer les id de sessions',
 //     })
 // );
+// middleware pour charger les données de la sessions sur `req.session` et `res.locals` si besoin
+// app.use();
+
 
 // Setup view engine
 app.set('view engine', 'ejs');
